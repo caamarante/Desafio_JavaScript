@@ -102,41 +102,4 @@ function UpdateCompareTable() {
             }
         }
     } 
-
-    /*for (let i=0; i < carArr.length; i++ ){
-        let item = carArr[i];
-        
-        const imagemCar = document.getElementById(`compare_image_${i}`);
-        imagemCar.innerHTML = `<img src="${item.image}" style="width: 200px">`
-        
-        const modeloCar = document.getElementById(`compare_modelo_${i}`);
-        modeloCar.innerHTML = `${item.nome}`
-        
-        const alturaCacCar = document.getElementById(`compare_alturacacamba_${i}`);
-        alturaCacCar.innerHTML = `${item.alturaCacamba}`
-        
-        const alturaVeiCar = document.getElementById(`compare_alturaveiculo_${i}`);
-        alturaVeiCar.innerHTML = `${item.alturaVeiculo}`
-        
-        const alturaSolCar = document.getElementById(`compare_alturasolo_${i}`);
-        alturaSolCar.innerHTML = `${item.alturaSolo}`
-        
-        const capacidadeCar = document.getElementById(`compare_capacidadecarga_${i}`);
-        capacidadeCar.innerHTML = `${item.capacidadeCarga}`
-        
-        const motorCar = document.getElementById(`compare_motor_${i}`);
-        motorCar.innerHTML = `${item.motor}`
-        
-        const potenciaCar = document.getElementById(`compare_potencia_${i}`);
-        potenciaCar.innerHTML = `${item.potencia}`
-        
-        const volumeCacCar = document.getElementById(`compare_volumecacamba_${i}`);
-        volumeCacCar.innerHTML = `${item.volumeCacamba}`
-        
-        const rodaCar = document.getElementById(`compare_roda_${i}`);
-        rodaCar.innerHTML = `${item.roda}`
-        
-        const precoCar = document.getElementById(`compare_preco_${i}`);
-        precoCar.innerHTML = `${item.preco}`
-    }*/
 }
